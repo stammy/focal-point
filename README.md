@@ -13,7 +13,7 @@ Web authors can either use default settings to crop and resize images, or can sp
 
 Using a technique from the blog post [Retina Revolution](http://blog.netvlies.nl/design-interactie/retina-revolution/) by Daan Jobsis, we're able serve high-resolution images to high-density displays, such as Retina displays. But as the same time, standard resolution devices are not affected by large file sizes. The technique is so simple its genius: __"A smaller filesize AND a better quality on both screen types! This is impossible."__ I encourage you to [read his entire post](http://blog.netvlies.nl/design-interactie/retina-revolution/).
 
-Because we're entering a responsive web now, and elements need to be fluid and adjust to the device, setting exact pixel dimensions is the largest hurdle. However, browsers once had a bad repuation on their abilities to downsize images on the fly. But today that has drastically changed and browsers do a remarkable job of resizing images, which is one of the primary reasons this framework is now possible.
+Because we're entering a responsive web now, and elements need to be fluid and adjust to the device, setting exact pixel dimensions is the largest hurdle. However, it is in the past that browsers had poor image downsizing abilities. But today that has drastically changed and browsers do a remarkable job of resizing images on the fly, which is one of the primary reasons this framework is now possible.
 
 
 ## HTML Pattern
