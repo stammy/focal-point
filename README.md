@@ -13,7 +13,7 @@ Please feel free to contact me: [@adamdbradley](https://twitter.com/adamdbradley
 
 ## 12x12 Grid
 
-An image is represented in a grid of 12x12 units, and you can locate the general focal point of each image using CSS classnames. I use the term "general" focal point because this framework is not built around exact pixels and cropping to strict dimensions. Instead it uses relative positioning to __narrow in on general areas of an image__ in an effort to crop and resize with a simple and quick markup change. If you need to crop, resize and rotate images to exact pixel-perfect dimensions for exact breakpoints then this framework may not be for you.
+An image is represented in a grid of 12x12 units (no matter what its natural dimensions are), and you can locate the general focal point of each image using CSS classnames. I use the term "general" focal point because this framework is not built around exact pixels and cropping to strict dimensions. Instead it uses relative positioning to __narrow in on general areas of an image__ in an effort to crop and resize with a simple and quick markup change. If you need to crop, resize and rotate images to exact pixel-perfect dimensions for exact breakpoints then this framework may not be for you.
 
 Web authors can either use default settings to crop and resize images which centers in on the image, or can specify an image's general focal point. By controlling web authoring in markup, this puts content editors in control of how content images render as responsive webpages adjust to the display.
     
@@ -74,6 +74,13 @@ __Requirements:__
  - Accessible text (ie: alt tag)
  - Printable images
  - Context menu usable when "right-clicking" content images, ie: "Save image as..."
+
+
+## Discussion Points
+
+__Zoom Classnames:__ The standard CSS uses a zoom factor I considered to be general enough for most cases. But some images may want more or less "zooming" depending on the image. There could easily be additional CSS classnames, such as .zoom-2 and .zoom-3, which could set how slow and fast the crop and resize adjusts. The only reason I did not do create zoom class names was to keep the CSS minimal. However, if you have a need for various zoom factors then go for it because its definately possible.
+
+__Multiple or No Media Queries:__ Same as the zoom classnames, I chose a general breakpoint and only included one media query for the masses. This isn't to say you couldn't have two, five, or even no media queries all. Depending on your use case you could even change zoom factors between each media query. What's included with the standard CSS is general enough for most cases, or at least a good starting point for your own project.
 
 
 ## Other Resources
