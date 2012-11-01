@@ -29,7 +29,7 @@ Because we're entering a responsive web now, and elements need to be fluid and a
  - __right-X__: Once a breakpoint is hit, the images focal point is X out of 6 units right of the center.
  - __up-X__: Once a breakpoint is hit, the images focal point is X out of 6 units up from the center.
  - __down-X__: Once a breakpoint is hit, the images focal point is X out of 6 units down from the center.
- - __shape-WxH__: Once a breakpoint is hit, the image should be cropped with a shape representing a ratio of X width units by X height units. For example, shape-4x3 and shape-7x5 are common ratios. By default the 4x3 shape is applied and doesn't need to be specificed, but this can be overwritten to use a 7x5 ratio by assigning shape-7x5. Additionally, any shape needed can be created by the developer, they are not restricted to what the framework has by default. An online build tool will be created to make this easier.
+ - __shape-WxH__: Once a breakpoint is hit, the image should be cropped with a shape representing a ratio of X width units by X height units. For example, shape-4x3 and shape-7x5 are common ratios. By default the 4x3 shape is applied and doesn't need to be specified, but this can be overwritten to use a 7x5 ratio by assigning shape-7x5. Additionally, any shape needed can be created by the developer, they are not restricted to what the framework has by default. An online build tool will be created to make this easier.
 
 
 ## See a way to improve this?
