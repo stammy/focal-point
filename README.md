@@ -1,14 +1,19 @@
 ## Focal Point: Pure HTML/CSS Adaptive Images Framework
 
-Using only HTML/CSS, web authors can specify an image's focal point, which stays as the image's primary focus, even as available CSS width changes for responsive webpages. This puts web authors in control of image content for responsive and high-resolution images. Crop and re-size images depending on available width and let CSS to do all of the work, and without any JavaScript.
+Using only HTML/CSS, web authors can specify an image's focal point, which stays as the image's primary focus, while the image's available width changes on responsive webpages. This puts web authors in control of image content for responsive and high-resolution images. Crop and re-size images depending on available width and let CSS to do all of the work, and without any JavaScript.
 
-The Focal Point Framework givens web authors the flexibility of how responsive and hi-res images should be rendered depending on the image. For example, images can use common CSS classnames which allows a standard pattern to be resuabled throughout an entire site, which drastically reduces HTML markup and CSS required. Additionally, each individual image can also be given specific CSS for the exact crop/size needed.
+The __Focal Point Framework__ givens web authors the flexibility of how responsive and hi-res images should be rendered depending on the image. For example, images can use common CSS classnames which allows a standard pattern to be resuabled throughout an entire site, which drastically reduces HTML markup and CSS required. Additionally, each individual image can also be given specific CSS for the general crop/size needed.
 
-Developers have control to add and subtract from the framework's CSS as needed, which keeps CSS minimal in size and can be grouped with existing CSS files as to not add any additional HTTP requests. 
-
-Web authors can either use default settings to crop and resize images, or can specify an image's exact crop and size needed. By controlling web authoring in markup, this put content editors in control of how content images display at each breakpoint.
+Developers also have control to add and subtract from the framework's CSS as needed. Additionally, the CSS is minimal in size, __2.8KB compressed (580 bytes gzipped)__, and can be grouped with existing CSS files as to not add any additional HTTP requests. 
 
 Please feel free to contact me: [@adamdbradley](https://twitter.com/adamdbradley)
+
+
+## 12x12 Grid
+
+An image is represented in a grid of 12x12 units, and you can locate the general focal point of each image using CSS classnames. I use the term "general" focal point because this framework is not built around exact pixels and cropping to strict dimensions. Instead it uses relative positioning to __narrow in on general areas of an image__ in an effort to crop and resize with a simple and quick markup change. If you need to crop, resize and rotate images to exact pixel-perfect dimensions for exact breakpoints then this framework may not be for you.
+
+Web authors can either use default settings to crop and resize images which centers in on the image, or can specify an image's general focal point. By controlling web authoring in markup, this puts content editors in control of how content images render as responsive webpages adjust to the display.
     
 
 ## High-Resolution Images, But Smaller Filesizes!
@@ -32,13 +37,13 @@ Out of the box all images are considered to be landscape with a 4x3 aspect ratio
 
 ## CSS Framework Classnames
 
-An image is represented in 12x12 units, and you can locate the focal point of each image using the classnames below. By not setting a left or right the crop and resize will zoom in to the center, and not setting a up or down will also zoom into the center. Basically, __by default it'll zoom into the center of the image__, and the classnames below allow you to crop and resize into a specific point of the image. _Note: X in the classnames represent a number between 1 and 6._
+An image is represented in 12x12 units, and you can locate the general focal point of each image using CSS classnames. By not setting a left or right classname, the crop and resize will zoom in to the horizontal center. Likewise, by not setting an up or down classname, the crop and resize will zoom into the vertical center. Basically, __by default it'll zoom into the center of the image__, and the classnames below allow you to crop and resize into a specific point of the image. _Note: X in the classnames represent a number between 1 and 6._
 
- - __left-X__: Once a breakpoint is hit, the images focal point is X out of 6 units left of the center. _ie: left-1 would move the focal point 1 out of 6 units to the left._
- - __right-X__: Once a breakpoint is hit, the images focal point is X out of 6 units right of the center. _ie: right-6 would move the focal point 6 out of 6 units to the right._
- - __up-X__: Once a breakpoint is hit, the images focal point is X out of 6 units up from the center. _ie: up-3 would move the focal point 3 out of 6 units up._
- - __down-X__: Once a breakpoint is hit, the images focal point is X out of 6 units down from the center. _ie: down-2 would move the focal point 2 out of 6 units down._
- - __portrait__: If an image is portrait (its height is more than its width) then this classname will help to locate the image's focal point. Once a breakpoint is hit, the image should be cropped with a shape representing an aspect ratio of 3x4 units. By default the 4x3 shape (landscape) is applied and doesn't need to be specified, but this can be overwritten for portrait images. You'll find that landscape will be able to work for most images, and portrait works for the rest. However, any shape needed can be added by the developer for uncommon image dimensions. Also, if you will not be using the portrait classname at all then feel free to cut out the CSS to save you a few bytes.
+ - __left-X__: Once the breakpoint is hit, the images focal point is X out of 6 units left of the center. _ie: left-1 would move the focal point 1 out of 6 units to the left._
+ - __right-X__: Once the breakpoint is hit, the images focal point is X out of 6 units right of the center. _ie: right-6 would move the focal point 6 out of 6 units to the right._
+ - __up-X__: Once the breakpoint is hit, the images focal point is X out of 6 units up from the center. _ie: up-3 would move the focal point 3 out of 6 units up._
+ - __down-X__: Once the breakpoint is hit, the images focal point is X out of 6 units down from the center. _ie: down-2 would move the focal point 2 out of 6 units down._
+ - __portrait__: If it is a portrait image (its height is more than its width) then this classname will help to locate the image's focal point. Once the breakpoint is hit, the image should be cropped with a shape representing an aspect ratio of 3x4 units. By default the 4x3 shape (landscape) is applied and doesn't need to be specified, but this can be overwritten for portrait images. You'll find that landscape will be able to work for most images, and portrait works for the rest. However, any shape needed can be added by the developer for uncommon image dimensions. Also, if you do not need the portrait classname then feel free to cut out the CSS to save yourself a few bytes.
 
 Below is an example of setting the image's focal point 1 out of 6 units to the right of the center, and 2 out of 6 units up from the center:
 
