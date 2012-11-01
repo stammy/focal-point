@@ -6,7 +6,7 @@ Many of today's designs are migrating to the [responsive web design technique](h
 
 The __Focal Point Framework__ givens web authors the flexibility of how responsive and hi-res images should be rendered depending on the image. For example, images can use common CSS classnames which allows a standard pattern to be resuabled throughout an entire site, which drastically reduces HTML markup and CSS required. Additionally, each individual image can also be given specific CSS for the general crop/size needed. 
 
-Developers also have control to add and subtract from the framework's CSS as needed. The CSS is minimal in size, __2.8KB compressed (580 bytes gzipped)__, and can be grouped with existing CSS files as to not add any additional HTTP requests. 
+Developers also have control to add and subtract from the framework's CSS as needed. The CSS is minimal in size, __2.98KB compressed (723 bytes gzipped)__, and can be grouped with existing CSS files as to not add any additional HTTP requests. 
 
  - Author: [Adam Bradley](https://twitter.com/adamdbradley) (c) 2012
  - License: MIT/GPLv2
