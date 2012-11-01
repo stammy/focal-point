@@ -7,6 +7,8 @@ The Focal Point Framework givens web authors the flexibility of how responsive a
 Developers have control to add and subtract from the framework's CSS as needed, which keeps CSS minimal in size and can be grouped with existing CSS files as to not add any additional HTTP requests. 
 
 Web authors can either use default settings to crop and resize images, or can specify an image's exact crop and size needed. By controlling web authoring in markup, this put content editors in control of how content images display at each breakpoint.
+
+Please feel free to contact me: [@adamdbradley](https://twitter.com/adamdbradley)
     
 
 ## High-Resolution Images, But Smaller Filesizes!
@@ -65,4 +67,9 @@ __Requirements:__
  - Accessible text (ie: alt tag)
  - Printable images
  - Context menu usable when "right-clicking" content images, ie: "Save image as..."
+
+
+## Other Resources
+
+ - [Responding to the New High-Resolution Web: Considerations for High-Density Displays [slidedeck]](https://dl.dropbox.com/u/75469230/responding-to-the-hi-res-web/index.html)
 
