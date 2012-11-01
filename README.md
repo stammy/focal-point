@@ -36,7 +36,13 @@ An image is represented in 12x12 units, and you can locate the focal point of ea
  - __right-X__: Once a breakpoint is hit, the images focal point is X out of 6 units right of the center. _ie: right-6 would move the focal point 6 out of 6 units to the right._
  - __up-X__: Once a breakpoint is hit, the images focal point is X out of 6 units up from the center. _ie: up-3 would move the focal point 3 out of 6 units up._
  - __down-X__: Once a breakpoint is hit, the images focal point is X out of 6 units down from the center. _ie: down-2 would move the focal point 2 out of 6 units down._
- - __portrait__: If an image is portrait (its height is more than its width) then this classname will help to locate the image's focal point. Once a breakpoint is hit, the image should be cropped with a shape representing an aspect ratio of 3x4 units. By default the 4x3 shape (landscape) is applied and doesn't need to be specified, but this can be overwritten for portrait images. You'll find that landscape will be able to work for most images, and portrait works for the rest. However, any shape needed can be added by the developer for uncommon image dimensions. Also, if you will not be using the portrait classname at all you cut out the CSS to save you a few bytes.
+ - __portrait__: If an image is portrait (its height is more than its width) then this classname will help to locate the image's focal point. Once a breakpoint is hit, the image should be cropped with a shape representing an aspect ratio of 3x4 units. By default the 4x3 shape (landscape) is applied and doesn't need to be specified, but this can be overwritten for portrait images. You'll find that landscape will be able to work for most images, and portrait works for the rest. However, any shape needed can be added by the developer for uncommon image dimensions. Also, if you will not be using the portrait classname at all then feel free to cut out the CSS to save you a few bytes.
+
+Below is an example of setting the image's focal point 1 out of 6 units to the right of the center, and 2 out of 6 units up from the center:
+
+    <div class="focal-point right-1 up-2">
+        <div><img src="http://demo.cdnconnect.com/images/hi-res/chrysler-plant.w1020.q20.jpg"></div>
+    </div>
 
 
 ## See a way to improve this?
@@ -45,7 +51,7 @@ Is there a better way to write the HTML/CSS all while keeping it reusable, compa
 
 __Requirements:__
 
- - All browsers must be able to view the image, old and new, with and without JS
+ - All browsers must be able to at least view the image _(ie: images do not crop and change focal points for IE8 and below, but the image still resizes according to available width. In my book that's still good to go.)_
  - Only one img request per image
  - Set image breakpoints depending on available CSS width
  - Re-crop and re-size images depending on available CSS width
