@@ -8,8 +8,8 @@ The __Focal Point Framework__ givens web authors the flexibility of how responsi
 
 Developers also have control to add and subtract from the framework's CSS as needed. The CSS is minimal in size, __2.8KB compressed (580 bytes gzipped)__, and can be grouped with existing CSS files as to not add any additional HTTP requests. 
 
-Please feel free to contact me: [@adamdbradley](https://twitter.com/adamdbradley)
-
+ - Author: [Adam Bradley](https://twitter.com/adamdbradley) (c) 2012
+ - License: MIT/GPLv2
 
 ## 12x12 Grid
 
@@ -54,9 +54,16 @@ Below is an example of setting the image's focal point 1 out of 6 units to the r
     </div>
 
 
+## Discussion Points
+
+__Zoom Classnames:__ The standard CSS uses a zoom factor I considered to be general enough for most cases. But some images may want more or less "zooming" depending on the image. There could easily be additional CSS classnames, such as .zoom-2 and .zoom-3, which could set how slow and fast the crop and resize adjusts. The only reason I did not do create zoom class names was to keep the CSS minimal. However, if you have a need for various zoom factors then go for it because its definately possible.
+
+__Multiple or No Media Queries:__ Same as the zoom classnames, I chose a general breakpoint and only included one media query for the masses. This isn't to say you couldn't have two, five, or even no media queries all. Depending on your use case you could even change zoom factors between each media query. What's included with the standard CSS is general enough for most cases, or at least a good starting point for your own project.
+
+
 ## See a way to improve this?
 
-Is there a better way to write the HTML/CSS all while keeping it reusable, compact and simple? Submit a pull request or contact me: [@adamdbradley](https://twitter.com/adamdbradley)
+Is there a better way to write the HTML/CSS all while keeping it reusable, compact, simple and meets the requirements below? Submit a pull request or contact me: [@adamdbradley](https://twitter.com/adamdbradley)
 
 __Requirements:__
 
@@ -74,13 +81,6 @@ __Requirements:__
  - Accessible text (ie: alt tag)
  - Printable images
  - Context menu usable when "right-clicking" content images, ie: "Save image as..."
-
-
-## Discussion Points
-
-__Zoom Classnames:__ The standard CSS uses a zoom factor I considered to be general enough for most cases. But some images may want more or less "zooming" depending on the image. There could easily be additional CSS classnames, such as .zoom-2 and .zoom-3, which could set how slow and fast the crop and resize adjusts. The only reason I did not do create zoom class names was to keep the CSS minimal. However, if you have a need for various zoom factors then go for it because its definately possible.
-
-__Multiple or No Media Queries:__ Same as the zoom classnames, I chose a general breakpoint and only included one media query for the masses. This isn't to say you couldn't have two, five, or even no media queries all. Depending on your use case you could even change zoom factors between each media query. What's included with the standard CSS is general enough for most cases, or at least a good starting point for your own project.
 
 
 ## Other Resources
