@@ -2,9 +2,11 @@
 
 Using only HTML/CSS, web authors can specify an image's focal point, which stays as the image's primary focus, while the image's available width changes on responsive webpages. This puts web authors in control of image content for responsive and high-resolution images. Crop and re-size images depending on available width and let CSS to do all of the work, and without any JavaScript.
 
-The __Focal Point Framework__ givens web authors the flexibility of how responsive and hi-res images should be rendered depending on the image. For example, images can use common CSS classnames which allows a standard pattern to be resuabled throughout an entire site, which drastically reduces HTML markup and CSS required. Additionally, each individual image can also be given specific CSS for the general crop/size needed.
+Many of today's designs are migrating to the [responsive web design technique](http://www.abookapart.com/products/responsive-web-design) coined by [Ethan Marcotte](https://twitter.com/beep). Elements should to be fluid and adjust to the available display, but a wrench is usually thrown into the system when exact pixel dimensions are set for images. The good news is that browsers only _used_ to have poor image downsizing abilities. Today's browsers, however, do a remarkable job of resizing images on the fly, which is one of the primary reasons this framework is now possible.
 
-Developers also have control to add and subtract from the framework's CSS as needed. Additionally, the CSS is minimal in size, __2.8KB compressed (580 bytes gzipped)__, and can be grouped with existing CSS files as to not add any additional HTTP requests. 
+The __Focal Point Framework__ givens web authors the flexibility of how responsive and hi-res images should be rendered depending on the image. For example, images can use common CSS classnames which allows a standard pattern to be resuabled throughout an entire site, which drastically reduces HTML markup and CSS required. Additionally, each individual image can also be given specific CSS for the general crop/size needed. 
+
+Developers also have control to add and subtract from the framework's CSS as needed. The CSS is minimal in size, __2.8KB compressed (580 bytes gzipped)__, and can be grouped with existing CSS files as to not add any additional HTTP requests. 
 
 Please feel free to contact me: [@adamdbradley](https://twitter.com/adamdbradley)
 
@@ -18,12 +20,12 @@ Web authors can either use default settings to crop and resize images which cent
 
 ## High-Resolution Images, But Smaller Filesizes!
 
-Using a technique from the blog post [Retina Revolution](http://blog.netvlies.nl/design-interactie/retina-revolution/) by Daan Jobsis, we're able serve high-resolution images to high-density displays, such as Retina displays. But as the same time, standard resolution devices are not affected by large file sizes. The technique is so simple its genius: __"A smaller filesize AND a better quality on both screen types! This is impossible."__ I encourage you to [read his entire post](http://blog.netvlies.nl/design-interactie/retina-revolution/).
-
-Because we're entering a responsive web now, and elements need to be fluid and adjust to the available display, setting exact pixel dimensions for images becomes a large challenge. However, it is now in the past that browsers had poor image downsizing abilities. Today browsers now do a remarkable job of resizing images on the fly, which is one of the primary reasons this framework is now possible.
+While not required, you can render high-resolution images using a technique from the blog post [Retina Revolution](http://blog.netvlies.nl/design-interactie/retina-revolution/) by Daan Jobsis. Essentially you would serve high-resolution images, but with also high image compression. Amazingly this works great for high-density devices, such as Retina displays, but as the same time, standard resolution devices are not affected by being served large file sizes. The technique is so simple its genius: __"A smaller filesize AND a better quality on both screen types! This is impossible."__ I encourage you to [read his entire post](http://blog.netvlies.nl/design-interactie/retina-revolution/).
 
 
 ## HTML Pattern
+
+Not too scarey right? If you've ever used a _div_ or _img_ element before you should be good to go.
 
     <div class="focal-point">
         <div><img src="http://demo.cdnconnect.com/images/hi-res/chrysler-plant.w1020.q20.jpg"></div>
