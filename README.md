@@ -48,7 +48,6 @@ __Requirements:__
  - Works *without* JavaScript
  - Entirely static and controlled only by HTML/CSS. ie: No requirements for HTTP headers/cookies
  - No DOM manipulation
- - No repaints
  - Crawlable by search engines so the image can be indexed and associated to page content
  - Printable images
  - Context menu usable when "right-clicking" content images, ie: "Save image as..."
