@@ -27,7 +27,7 @@ Because we're entering a responsive web now, and elements need to be fluid and a
 
 ## Landscape and Portrait Aspect Ratios
 
-Out of the box all images are considered to be landscape with a 4x3 aspect ratio, and portrait images are generalized to a 3x4 aspect ratio. These ratios are used to help crop images as they are resized. Because of the nature of the CSS _em_ unit and its ability to adapt to its surroundings, it allows the crop and resize to be elastic to the images original dimensions. While cropping and resizing images, the _em_ unit does not render strict 4x3 or 3x4 ratio images, but instead adjust to the image as it resizes. Check out the demos to get a better idea of how they work.
+Out of the box all images are considered to be landscape with a 4x3 aspect ratio, and portrait images are generalized to a 3x4 aspect ratio. These ratios are used to help crop images as they are resized. Because of the nature of the CSS _em_ unit and its ability to adapt to its surroundings, it allows the crop and resize to be elastic to the image's original dimensions. While cropping and resizing images, the _em_ unit does not render strict 4x3 or 3x4 ratio images, but instead adjusts relative to the image's dimensions as it resizes. Check out the demos to get a better idea of how they work.
 
 
 ## CSS Framework Classnames
