@@ -51,7 +51,7 @@ Is there a better way to write the HTML/CSS all while keeping it reusable, compa
 
 __Requirements:__
 
- - All browsers must be able to at least view the image _(ie: images do not crop and change focal points for IE8 and below, but the image still resizes according to available width. In my book that's still good to go.)_
+ - All browsers must be able to at least view the image _(ie: images do not crop and change focal points for IE8 and below, but the image still resizes according to available width. In my book that's still good to go. If a different method doesn't allow the image to load at all in IE8 then that's a no go.)_
  - Only one img request per image
  - Set image breakpoints depending on available CSS width
  - Re-crop and re-size images depending on available CSS width
