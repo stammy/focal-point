@@ -1,6 +1,6 @@
 ## Focal Point: Pure HTML/CSS Adaptive Images Framework
 
-Using only HTML/CSS, web authors can specify an image's focal point, which stays as the image's primary focus as the image scales on responsive webpages. This puts web authors in control of image content for responsive and high-resolution images. Crop and re-size images depending on available width and let CSS to do all of the work, and without any JavaScript.
+Using only HTML/CSS, web authors can specify an image's focal point, which stays as the image's primary focus as the image scales on responsive webpages. This puts [web authors in control of art direction for responsive and high-resolution images](http://blog.cloudfour.com/a-framework-for-discussing-responsive-images-solutions/). Crop and re-size images depending on available width and let CSS to do all of the work, and without any JavaScript.
 
 Many of today's designs are migrating to the [responsive web design technique](http://www.abookapart.com/products/responsive-web-design) coined by [Ethan Marcotte](https://twitter.com/beep). Elements should to be fluid and adjust to the available display, but a wrench is usually thrown into the system when exact pixel dimensions are set for images. The good news is that browsers only _used_ to have poor image downsizing abilities. Today's browsers, however, do a remarkable job of resizing images on the fly, which is one of the primary reasons this framework is now possible. 
 
@@ -10,6 +10,20 @@ Developers also have control to add and subtract from the framework's CSS as nee
 
  - Author: [Adam Bradley](https://twitter.com/adamdbradley) (c) 2012
  - License: MIT/GPLv2
+
+## Demos
+
+When viewing the demos, be sure to __adjust your browser window size__ and __take notice of the image's edges__. As the image's available width changes, __study how the image gets cropped__ and narrows in on the image's focal point.
+
+ - [Full House](#)
+ - [Webster](#)
+ - [My Two Dads](#)
+ - [Charles in Charge](#)
+ - [Dukes of Hazzard](#)
+ - [MacGyver](#)
+ - [Small Wonder](#)
+ - [Alf](#)
+
 
 ## 12x12 Grid
 
@@ -86,4 +100,7 @@ __Requirements:__
 ## Other Resources
 
  - [Responding to the New High-Resolution Web: Considerations for High-Density Displays [slidedeck]](https://dl.dropbox.com/u/75469230/responding-to-the-hi-res-web/index.html)
+ - [A framework for discussing responsive images solutions [Jason Grigsby]](http://blog.cloudfour.com/a-framework-for-discussing-responsive-images-solutions/)
+ - [Foresight.js](https://github.com/adamdbradley/foresight.js): JavaScript plugin that judges device display and network connectivity, then requests the appropriate image. Used by Washington Post's mobile site.
+ - [Which responsive images solution should you use? [CSS-Tricks]](http://css-tricks.com/which-responsive-images-solution-should-you-use/)
 
