@@ -74,12 +74,12 @@ __Zoom Classnames:__ The standard CSS uses a zoom factor I considered to be gene
 
 __Multiple or No Media Queries:__ Same as the zoom classnames, I chose a general breakpoint and only included one media query for common cases. This isn't to say you couldn't have two, five, or even no media queries all. Depending on your use case you could even change zoom factors between each media query. What's included with the standard CSS is general enough for most cases, or at least a good starting point for your own project.
 
-__Browser Support:__ It appears that IE8 and below does not _crop_ the image, but it does resize the image according to its available width. I don't see this as a show stopper what-so-ever. If the worst case scenario is that IE8 users do not get the cropped image on responsive webpages, but instead view images no different that every other image created today, then I'm fine with that. Review the demos in IE8 to see what I mean. (Let's not forget that it's just two _div_'s and an _img_ element). Also, if you come across any other issues, or know of a better way to write the CSS please let me know.
+__Browser Support:__ It appears that IE8 and below does not _crop_ the image, but it does resize the image according to its available width. I don't see this as a show stopper what-so-ever. If the worst case scenario is that IE8 users do not get the cropped image on responsive webpages, but instead view images no different that every other image created today, then I'm fine with that. Review the demos in IE8 to see what I mean. (Let's not forget that it's just two _div_'s and an _img_ element). Also, if you come across any other issues, or know of a better way to write the HTML/CSS please let me know.
 
 
 ## See a way to improve this? Contribute / Contact Me
 
-Is there a better way to write the HTML/CSS all while keeping it reusable, compact, simple and meets the requirements below? Submit a pull request or contact me: [@adamdbradley](https://twitter.com/adamdbradley)
+Is there a better/simplier/easier/smaller way to write the HTML/CSS all while keeping it reusable, compact, simple and meets the requirements below? Submit a pull request or contact me: [@adamdbradley](https://twitter.com/adamdbradley)
 
 __Requirements:__
 
