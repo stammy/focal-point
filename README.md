@@ -27,14 +27,14 @@ When viewing the demos, be sure to __adjust your browser window size__ and __tak
 
 ## 12x12 Grid
 
-An image is represented in a grid of 12x12 units (no matter what its natural dimensions are), and you can locate the general focal point of each image using CSS classnames. I use the term "general" focal point because this framework is not built around exact pixels and cropping to strict dimensions. Instead it uses relative positioning to __narrow in on general areas of an image__ in an effort to crop and resize with a simple and quick markup change. If you need to crop, resize and rotate images to exact pixel-perfect dimensions for exact breakpoints widths then this framework may not be for you.
+An image is represented in a grid of 12x12 units (no matter what its natural dimensions are), and you can locate the general focal point of each image using CSS classnames. I use the term "general" focal point because this framework is not built around exact pixels and cropping to strict dimensions. Instead it uses relative positioning to __narrow in on general areas of an image__ in an effort to crop and resize with a simple and quick markup change. If you need to crop, resize and rotate images to exact pixel-perfect dimensions for exact breakpoints widths then this framework [may not be for you](http://css-tricks.com/which-responsive-images-solution-should-you-use/).
 
 Web authors can either use default settings to crop and resize images which centers in on the image, or can specify an image's general focal point. By controlling web authoring in markup, this puts content editors in control of how content images render as responsive webpages adjust to the display.
     
 
 ## High-Resolution Images, But Smaller Filesizes!
 
-While not required, you can also render high-resolution images using a technique from the blog post [Retina Revolution](http://blog.netvlies.nl/design-interactie/retina-revolution/) by Daan Jobsis. Essentially you would serve high-resolution images, but with also saved high image compression. Amazingly this works great for high-density devices, such as Retina displays, but as the same time, standard resolution devices are not affected by being served large file sizes. The technique is so simple its genius: __"A smaller filesize AND a better quality on both screen types! This is impossible."__ I encourage you to [read his entire post](http://blog.netvlies.nl/design-interactie/retina-revolution/).
+While not required, you can also render high-resolution images using a technique from the blog post [Retina Revolution](http://blog.netvlies.nl/design-interactie/retina-revolution/) by Daan Jobsis. Essentially you would serve high-resolution images, but the image would also be saved with high compression. Amazingly this works great for high-density devices, such as Retina displays, but as the same time, standard resolution devices are not affected by being served large file sizes. The technique is so simple its genius: __"A smaller filesize AND a better quality on both screen types! This is impossible."__ I encourage you to [read his entire post](http://blog.netvlies.nl/design-interactie/retina-revolution/).
 
 
 ## HTML Pattern
@@ -48,7 +48,7 @@ Not too scarey right? If you've ever used a _div_ or _img_ element before you sh
 
 ## Landscape and Portrait Aspect Ratios
 
-Out of the box all images are considered to be landscape with a 4x3 aspect ratio, and portrait images are generalized to a 3x4 aspect ratio. These ratios are used to help crop images as they are resized. Because of the nature of the CSS _em_ unit and its ability to adapt to its surroundings, using the _em_ unit allows the crop and resize to be elastic to the image's natural dimensions. While cropping and resizing images, the _em_ unit does not render strict 4x3 or 3x4 ratio images, but instead adjusts relative to the image's natural dimensions as it resizes. Check out the demos to get a better idea of how they work.
+Out of the box all images are considered to be landscape with a 4x3 aspect ratio, and portrait images are generalized to a 3x4 aspect ratio. These ratios are used to help crop images as they are resized. Because of the nature of the CSS _em_ unit and its ability to adapt to its surroundings, using the _em_ unit allows the crop and resize to be elastic to the image's natural dimensions. While cropping and resizing images, the _em_ unit does not render strict 4x3 or 3x4 ratio images, but instead adjusts relative to the image's natural dimensions. Check out the demos to get a better idea of how they work.
 
 
 ## CSS Framework Classnames
@@ -74,8 +74,10 @@ __Zoom Classnames:__ The standard CSS uses a zoom factor I considered to be gene
 
 __Multiple or No Media Queries:__ Same as the zoom classnames, I chose a general breakpoint and only included one media query for common cases. This isn't to say you couldn't have two, five, or even no media queries all. Depending on your use case you could even change zoom factors between each media query. What's included with the standard CSS is general enough for most cases, or at least a good starting point for your own project.
 
+__Browser Support:__ It appears that IE8 and below does not _crop_ the image, but it does resize the image according to its available width. I don't see this as a show stopper what-so-ever. If the worst case scenario is that IE8 users do not get the cropped image on responsive webpages, but instead view images no different that every other image created today, then I'm fine with that. Review the demos in IE8 to see what I mean. (Let's not forget that it's just two _div_'s and an _img_ element). Also, if you come across any other issues, or know of a better way to write the CSS please let me know.
 
-## See a way to improve this?
+
+## See a way to improve this? Contribute / Contact Me
 
 Is there a better way to write the HTML/CSS all while keeping it reusable, compact, simple and meets the requirements below? Submit a pull request or contact me: [@adamdbradley](https://twitter.com/adamdbradley)
 
