@@ -70,7 +70,7 @@ Below is an example of setting the image's focal point 1 out of 6 units to the r
 
 ## Discussion Points
 
-__Zoom Classnames:__ The standard CSS uses a zoom factor I considered to be general enough for most cases. But some images may want more or less "zooming" depending on the image. There could easily be additional CSS classnames, such as .zoom-2 and .zoom-3, which could set how slow and fast the crop and resize adjusts. The only reason I did not do create zoom classnames was to keep the CSS minimal. However, if you have a need for various zoom factors then go for it because its definately possible.
+__Zoom Classnames:__ The standard CSS uses a zoom factor I considered to be general enough for most cases. But some images may want more or less "zooming" depending on the image. There could easily be additional CSS classnames, such as .zoom-2 and .zoom-3, which could set how slow and fast the crop and resize adjusts. The only reason I did not create zoom classnames was to keep the CSS minimal. However, if you have a need for various zoom factors then go for it since it's definately possible.
 
 __Multiple or No Media Queries:__ Same as the zoom classnames, I chose a general breakpoint and only included one media query for common cases. This isn't to say you couldn't have two, five, or even no media queries all. Depending on your use case you could even change zoom factors between each media query. What's included with the standard CSS is general enough for most cases, or at least a good starting point for your own project.
 
