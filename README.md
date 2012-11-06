@@ -79,7 +79,7 @@ __Browser Support:__ It appears that IE8 and below does not _crop_ the image, bu
 
 ## See a way to improve this? Contribute / Contact Me
 
-Is there a better/simplier/easier/smaller way to write the HTML/CSS all while keeping it reusable, compact, simple and meets the requirements below? Submit a pull request or contact me: [@adamdbradley](https://twitter.com/adamdbradley)
+Is there a better/simpler/easier/smaller way to write the HTML/CSS all while keeping it reusable, compact, simple and meets the requirements below? Submit a pull request or contact me: [@adamdbradley](https://twitter.com/adamdbradley)
 
 __Requirements:__
 
