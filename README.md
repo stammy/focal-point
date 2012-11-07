@@ -15,14 +15,17 @@ Developers also have control to add and subtract from the framework's CSS as nee
 
 When viewing the demos, be sure to __adjust your browser window size__ and __take notice of the image's edges__. As the image's available width changes, __study how the image gets cropped__ and narrows in on the image's focal point.
 
- - [Full House](#)
- - [Webster](#)
- - [My Two Dads](#)
- - [Charles in Charge](#)
- - [Dukes of Hazzard](#)
- - [MacGyver](#)
- - [Small Wonder](#)
- - [Alf](#)
+ - [Full House](http://www.cdnconnect.com/demos/focal-point-full-house)
+ - [A-Team](http://www.cdnconnect.com/demos/focal-point-a-team)
+ - [Webster](http://www.cdnconnect.com/demos/focal-point-webster)
+ - [Charles in Charge](http://www.cdnconnect.com/demos/focal-point-charles-in-charge)
+ - [Dukes of Hazzard](http://www.cdnconnect.com/demos/focal-point-dukes-of-hazzard)
+ - [Knight Rider](http://www.cdnconnect.com/demos/focal-point-knight-rider)
+ - [Magnum PI](http://www.cdnconnect.com/demos/focal-point-magnum-pi)
+ - [My Two Dads](http://www.cdnconnect.com/demos/focal-point-my-two-dads)
+ - [Small Wonder](http://www.cdnconnect.com/demos/focal-point-small-wonder)
+ - [Alf](http://www.cdnconnect.com/demos/focal-point-alf)
+ - [MacGyver](http://www.cdnconnect.com/demos/focal-point-macgyver)
 
 
 ## 12x12 Grid
