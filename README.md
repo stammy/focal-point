@@ -1,6 +1,6 @@
 ## Focal Point: Pure HTML/CSS Adaptive Images Framework
 
-Using only HTML/CSS, web authors can specify an image's focal point, which stays as the image's primary focus as the image scales on responsive webpages. This puts [web authors in control of art direction for responsive and high-resolution images](http://blog.cloudfour.com/a-framework-for-discussing-responsive-images-solutions/). Crop and re-size images depending on available width and let CSS to do all of the work, and without any JavaScript.
+Using only HTML/CSS, web authors can specify an image's focal point, which stays as the image's primary focus as the image scales on responsive webpages. This puts [web authors in control of art direction for responsive and high-resolution images](http://blog.cloudfour.com/a-framework-for-discussing-responsive-images-solutions/). Crop and re-size images depending on available width and let CSS to do all of the work, and without any JavaScript. Resize your browser down to as small as it can go when viewing the [demos](http://www.cdnconnect.com/demos/focal-point-full-house).
 
 Many of today's designs are migrating to the [responsive web design technique](http://www.abookapart.com/products/responsive-web-design) coined by [Ethan Marcotte](https://twitter.com/beep). Elements should to be fluid and adjust to the available display, but a wrench is usually thrown into the system when exact pixel dimensions are set for images. The good news is that browsers only _used_ to have poor image downsizing abilities. Today's browsers, however, do a remarkable job of resizing images on the fly, which is one of the primary reasons this small framework is now possible. 
 
@@ -13,7 +13,7 @@ Developers also have control to add and subtract from the framework's CSS as nee
 
 ## Demos
 
-When viewing the demos, be sure to __adjust your browser window size__ and __take notice of the image's edges__. As the image's available width changes, __study how the image gets cropped__ and narrows in on the image's focal point.
+Be sure to __adjust your browser window size to as small as it can go__ and __take notice of the image's edges__. As the image's available width changes, __study how the image gets cropped__ as it narrows in on the image's focal point.
 
  - [Full House](http://www.cdnconnect.com/demos/focal-point-full-house)
  - [A-Team](http://www.cdnconnect.com/demos/focal-point-a-team)
@@ -51,7 +51,7 @@ Not too scarey right? If you've ever used a _div_ or _img_ element before you sh
 
 ## Landscape and Portrait Aspect Ratios
 
-Out of the box all images are considered to be landscape with a 4x3 aspect ratio, and portrait images are generalized to a 3x4 aspect ratio. These ratios are used to help crop images as they are resized. Because of the nature of the CSS _em_ unit and its ability to adapt to its surroundings, using the _em_ unit allows the crop and resize to be elastic to the image's natural dimensions. While cropping and resizing images, the _em_ unit does not render strict 4x3 or 3x4 ratio images, but instead adjusts relative to the image's natural dimensions. Check out the demos to get a better idea of how they work.
+Out of the box all images are considered to be landscape with a 4x3 aspect ratio, and portrait images are generalized to a 3x4 aspect ratio. These ratios are used to help crop images as they are resized. Because of the nature of the CSS _em_ unit and its ability to adapt to its surroundings, using the _em_ unit allows the crop and resize to be elastic to the image's natural dimensions. While cropping and resizing images, the _em_ unit does not render strict 4x3 or 3x4 ratio images, but instead adjusts relative to the image's natural dimensions. [Check out the demos](http://www.cdnconnect.com/demos/focal-point-full-house) to get a better idea of how they work.
 
 
 ## CSS Framework Classnames
